@@ -1,0 +1,24 @@
+# 敏感信息
+.env
+.env.*
+
+# 依赖
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# 数据与缓存 (非常重要！PDF和Embedding缓存太大了，不能传)
+data/
+.cache/
+checkpoints.db
+
+# 模型权重
+*.bin
+*.pt
+*.safetensors
+
+# 系统与IDE文件
+.DS_Store
+.idea/
+.vscode/

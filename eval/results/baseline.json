@@ -1,0 +1,3797 @@
+{
+  "summary": {
+    "num_questions": 60,
+    "Hit@1_any": 0.75,
+    "Hit@3_any": 0.8833333333333333,
+    "Hit@5_any": 0.9333333333333333,
+    "MRR_any": 0.8263888888888888,
+    "Hit@1_all": 0.3333333333333333,
+    "Hit@3_all": 0.45,
+    "Hit@5_all": 0.5833333333333334,
+    "MRR_all": 0.41777777777777786,
+    "num_multi_hop": 46,
+    "Hit@3_multi": 0.7608695652173914,
+    "Hit@5_multi": 0.8478260869565217,
+    "MRR_multi": 0.6594202898550724,
+    "tolerance": 1,
+    "top_k": 5
+  },
+  "details": [
+    {
+      "id": "ch02_def_q01",
+      "chapter": "Chapter 2",
+      "category": "definition",
+      "question": "What is an embedding in the context of deep learning, and what is its primary purpose?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 23
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 24
+        }
+      ],
+      "hit@1_any": 0.0,
+      "hit@3_any": 0.0,
+      "hit@5_any": 0.0,
+      "mrr_any": 0.0,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 0.0,
+      "mrr_all": 0.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 0.0,
+      "hit@5_multi": 0.0,
+      "mrr_multi": 0.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 305,
+          "score": 0.0489,
+          "raw_score": 0.7638
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 306,
+          "score": 0.0474,
+          "raw_score": 0.745
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 303,
+          "score": 0.0453,
+          "raw_score": 0.7515
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 203,
+          "score": 0.0446,
+          "raw_score": 0.7373
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 3,
+          "score": 0.0325,
+          "raw_score": 0.7716
+        }
+      ]
+    },
+    {
+      "id": "ch02_def_q02",
+      "chapter": "Chapter 2",
+      "category": "definition",
+      "question": "What is a vocabulary in the context of converting tokens into token IDs?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 31
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 32
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 33
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 1.0,
+      "hit@3_all": 1.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 1.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 1.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 32,
+          "score": 0.0656,
+          "raw_score": 0.7964
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 38,
+          "score": 0.064,
+          "raw_score": 0.7934
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 42,
+          "score": 0.0614,
+          "raw_score": 0.7634
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 37,
+          "score": 0.0604,
+          "raw_score": 0.7577
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 59,
+          "score": 0.0466,
+          "raw_score": 0.765
+        }
+      ]
+    },
+    {
+      "id": "ch03_def_q01",
+      "chapter": "Chapter 3",
+      "category": "definition",
+      "question": "What is self-attention in the context of transformer-based LLMs?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 69
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 1.0,
+      "hit@3_all": 1.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 1.0,
+      "is_multi_hop": false,
+      "hit@3_multi": null,
+      "hit@5_multi": null,
+      "mrr_multi": null,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 69,
+          "score": 0.0656,
+          "raw_score": 0.8054
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 70,
+          "score": 0.0606,
+          "raw_score": 0.7537
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 15,
+          "score": 0.0484,
+          "raw_score": 0.7829
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 112,
+          "score": 0.046,
+          "raw_score": 0.7612
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 7,
+          "score": 0.0459,
+          "raw_score": 0.7604
+        }
+      ]
+    },
+    {
+      "id": "ch03_def_q02",
+      "chapter": "Chapter 3",
+      "category": "definition",
+      "question": "What are query, key, and value vectors in the context of attention mechanisms?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 87
+        }
+      ],
+      "hit@1_any": 0.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 0.5,
+      "hit@1_all": 0.0,
+      "hit@3_all": 1.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 0.5,
+      "is_multi_hop": false,
+      "hit@3_multi": null,
+      "hit@5_multi": null,
+      "mrr_multi": null,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 76,
+          "score": 0.0645,
+          "raw_score": 0.7787
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 87,
+          "score": 0.0638,
+          "raw_score": 0.8053
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 96,
+          "score": 0.0608,
+          "raw_score": 0.7515
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 72,
+          "score": 0.0481,
+          "raw_score": 0.7782
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 72,
+          "score": 0.0465,
+          "raw_score": 0.7574
+        }
+      ]
+    },
+    {
+      "id": "ch03_def_q03",
+      "chapter": "Chapter 3",
+      "category": "definition",
+      "question": "What is causal attention, also known as masked attention?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 92
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 1.0,
+      "hit@3_all": 1.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 1.0,
+      "is_multi_hop": false,
+      "hit@3_multi": null,
+      "hit@5_multi": null,
+      "mrr_multi": null,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 92,
+          "score": 0.0643,
+          "raw_score": 0.7814
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 92,
+          "score": 0.0628,
+          "raw_score": 0.7696
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 95,
+          "score": 0.0479,
+          "raw_score": 0.7393
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 101,
+          "score": 0.0476,
+          "raw_score": 0.7351
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 95,
+          "score": 0.046,
+          "raw_score": 0.7063
+        }
+      ]
+    },
+    {
+      "id": "ch03_def_q04",
+      "chapter": "Chapter 3",
+      "category": "definition",
+      "question": "What is scaled dot-product attention?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 81
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 85
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 86
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 0.0,
+      "mrr_all": 0.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 1.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 86,
+          "score": 0.0651,
+          "raw_score": 0.7524
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 74,
+          "score": 0.0645,
+          "raw_score": 0.7171
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 74,
+          "score": 0.064,
+          "raw_score": 0.7052
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 73,
+          "score": 0.0625,
+          "raw_score": 0.6948
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 358,
+          "score": 0.0606,
+          "raw_score": 0.6545
+        }
+      ]
+    },
+    {
+      "id": "ch03_def_q05",
+      "chapter": "Chapter 3",
+      "category": "definition",
+      "question": "What is multi-head attention?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 101
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 102
+        }
+      ],
+      "hit@1_any": 0.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 0.3333333333333333,
+      "hit@1_all": 0.0,
+      "hit@3_all": 1.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 0.3333333333333333,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 0.3333333333333333,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 65,
+          "score": 0.0625,
+          "raw_score": 0.7185
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 105,
+          "score": 0.0484,
+          "raw_score": 0.7433
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 101,
+          "score": 0.0482,
+          "raw_score": 0.7434
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 106,
+          "score": 0.0481,
+          "raw_score": 0.7402
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 69,
+          "score": 0.046,
+          "raw_score": 0.7028
+        }
+      ]
+    },
+    {
+      "id": "ch04_def_q01",
+      "chapter": "Chapter 4",
+      "category": "definition",
+      "question": "What is a transformer block in the context of GPT and other LLM architectures?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 139
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 144
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 0.0,
+      "mrr_all": 0.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 0.0,
+      "hit@5_multi": 0.0,
+      "mrr_multi": 0.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 139,
+          "score": 0.0646,
+          "raw_score": 0.7971
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 139,
+          "score": 0.064,
+          "raw_score": 0.7873
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 19,
+          "score": 0.0604,
+          "raw_score": 0.7688
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 224,
+          "score": 0.0599,
+          "raw_score": 0.7529
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 119,
+          "score": 0.0472,
+          "raw_score": 0.7646
+        }
+      ]
+    },
+    {
+      "id": "ch04_def_q02",
+      "chapter": "Chapter 4",
+      "category": "definition",
+      "question": "What are shortcut connections, also known as skip or residual connections?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 134
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 135
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 1.0,
+      "hit@3_all": 1.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 1.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 1.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 134,
+          "score": 0.0648,
+          "raw_score": 0.8062
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 135,
+          "score": 0.064,
+          "raw_score": 0.7863
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 134,
+          "score": 0.0633,
+          "raw_score": 0.7613
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 135,
+          "score": 0.0621,
+          "raw_score": 0.7145
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 138,
+          "score": 0.0613,
+          "raw_score": 0.7237
+        }
+      ]
+    },
+    {
+      "id": "ch04_def_q03",
+      "chapter": "Chapter 4",
+      "category": "definition",
+      "question": "What is weight tying in the context of GPT-2?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 146
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 147
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 1.0,
+      "hit@3_all": 1.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 1.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 1.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 147,
+          "score": 0.0487,
+          "raw_score": 0.7601
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 116,
+          "score": 0.0472,
+          "raw_score": 0.7208
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 116,
+          "score": 0.0469,
+          "raw_score": 0.7126
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 146,
+          "score": 0.0469,
+          "raw_score": 0.7166
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 83,
+          "score": 0.0446,
+          "raw_score": 0.7079
+        }
+      ]
+    },
+    {
+      "id": "ch05_def_q01",
+      "chapter": "Chapter 5",
+      "category": "definition",
+      "question": "What is greedy decoding in the context of text generation with LLMs?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 151
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 182
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 183
+        }
+      ],
+      "hit@1_any": 0.0,
+      "hit@3_any": 0.0,
+      "hit@5_any": 0.0,
+      "mrr_any": 0.0,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 0.0,
+      "mrr_all": 0.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 0.0,
+      "hit@5_multi": 0.0,
+      "mrr_multi": 0.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 9,
+          "score": 0.0477,
+          "raw_score": 0.799
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 21,
+          "score": 0.0476,
+          "raw_score": 0.7944
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 154,
+          "score": 0.047,
+          "raw_score": 0.7816
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 28,
+          "score": 0.0469,
+          "raw_score": 0.7733
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 12,
+          "score": 0.0447,
+          "raw_score": 0.7675
+        }
+      ]
+    },
+    {
+      "id": "ch05_def_q02",
+      "chapter": "Chapter 5",
+      "category": "definition",
+      "question": "What is temperature scaling in the context of controlling token selection?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 183
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 185
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 186
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 187
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 0.25,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 1.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 187,
+          "score": 0.0492,
+          "raw_score": 0.7683
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 187,
+          "score": 0.0481,
+          "raw_score": 0.7506
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 185,
+          "score": 0.0471,
+          "raw_score": 0.7438
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 183,
+          "score": 0.0471,
+          "raw_score": 0.7501
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 231,
+          "score": 0.0458,
+          "raw_score": 0.7177
+        }
+      ]
+    },
+    {
+      "id": "ch05_def_q03",
+      "chapter": "Chapter 5",
+      "category": "definition",
+      "question": "What is top-k sampling?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 188
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 189
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 1.0,
+      "hit@3_all": 1.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 1.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 1.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 188,
+          "score": 0.0653,
+          "raw_score": 0.6733
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 188,
+          "score": 0.0648,
+          "raw_score": 0.6724
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 362,
+          "score": 0.0609,
+          "raw_score": 0.6429
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 190,
+          "score": 0.0474,
+          "raw_score": 0.6426
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 188,
+          "score": 0.046,
+          "raw_score": 0.6247
+        }
+      ]
+    },
+    {
+      "id": "ch06_def_q01",
+      "chapter": "Chapter 6",
+      "category": "definition",
+      "question": "What is classification-finetuning in the context of LLMs?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 204
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 205
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 206
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 222
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 0.0,
+      "mrr_all": 0.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 1.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 204,
+          "score": 0.0653,
+          "raw_score": 0.7859
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 205,
+          "score": 0.064,
+          "raw_score": 0.7753
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 219,
+          "score": 0.0623,
+          "raw_score": 0.7886
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 247,
+          "score": 0.0616,
+          "raw_score": 0.7701
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 249,
+          "score": 0.0615,
+          "raw_score": 0.7623
+        }
+      ]
+    },
+    {
+      "id": "ch07_def_q01",
+      "chapter": "Chapter 7",
+      "category": "definition",
+      "question": "What is instruction finetuning, also known as supervised instruction finetuning?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 248
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 249
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 253
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 0.0,
+      "mrr_all": 0.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 1.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 248,
+          "score": 0.0651,
+          "raw_score": 0.7557
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 10,
+          "score": 0.0648,
+          "raw_score": 0.7255
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 205,
+          "score": 0.0626,
+          "raw_score": 0.7163
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 207,
+          "score": 0.0625,
+          "raw_score": 0.7194
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 250,
+          "score": 0.0611,
+          "raw_score": 0.7078
+        }
+      ]
+    },
+    {
+      "id": "app_def_q01",
+      "chapter": "Appendix A",
+      "category": "definition",
+      "question": "What is a computational graph in the context of PyTorch and deep learning?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 313
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 317
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 0.0,
+      "mrr_all": 0.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 0.0,
+      "hit@5_multi": 0.0,
+      "mrr_multi": 0.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 317,
+          "score": 0.0638,
+          "raw_score": 0.8011
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 317,
+          "score": 0.0634,
+          "raw_score": 0.8162
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 318,
+          "score": 0.0616,
+          "raw_score": 0.7972
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 7,
+          "score": 0.0453,
+          "raw_score": 0.7957
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 303,
+          "score": 0.0318,
+          "raw_score": 0.8112
+        }
+      ]
+    },
+    {
+      "id": "ch01_q01",
+      "chapter": "Chapter 1",
+      "category": "concept",
+      "question": "What is an LLM, and what does the 'large' in large language model refer to?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 6
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 1.0,
+      "hit@3_all": 1.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 1.0,
+      "is_multi_hop": false,
+      "hit@3_multi": null,
+      "hit@5_multi": null,
+      "mrr_multi": null,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 5,
+          "score": 0.0487,
+          "raw_score": 0.8079
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 6,
+          "score": 0.0481,
+          "raw_score": 0.7689
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 3,
+          "score": 0.0481,
+          "raw_score": 0.808
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 205,
+          "score": 0.0457,
+          "raw_score": 0.7532
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 21,
+          "score": 0.0317,
+          "raw_score": 0.7838
+        }
+      ]
+    },
+    {
+      "id": "ch02_q01",
+      "chapter": "Chapter 2",
+      "category": "concept",
+      "question": "Why is it necessary to convert raw text into continuous-valued vectors before it can be processed by deep neural network models such as LLMs?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 23
+        }
+      ],
+      "hit@1_any": 0.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 0.5,
+      "hit@1_all": 0.0,
+      "hit@3_all": 1.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 0.5,
+      "is_multi_hop": false,
+      "hit@3_multi": null,
+      "hit@5_multi": null,
+      "mrr_multi": null,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 6,
+          "score": 0.0605,
+          "raw_score": 0.8324
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 23,
+          "score": 0.0484,
+          "raw_score": 0.8513
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 62,
+          "score": 0.0474,
+          "raw_score": 0.8245
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 24,
+          "score": 0.0467,
+          "raw_score": 0.8165
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 66,
+          "score": 0.0448,
+          "raw_score": 0.8119
+        }
+      ]
+    },
+    {
+      "id": "ch03_q02",
+      "chapter": "Chapter 3",
+      "category": "concept",
+      "question": "What is self-attention and how does it work according to the provided text?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 69
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 1.0,
+      "hit@3_all": 1.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 1.0,
+      "is_multi_hop": false,
+      "hit@3_multi": null,
+      "hit@5_multi": null,
+      "mrr_multi": null,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 69,
+          "score": 0.065,
+          "raw_score": 0.7832
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 28,
+          "score": 0.0638,
+          "raw_score": 0.7834
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 72,
+          "score": 0.0624,
+          "raw_score": 0.7573
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 64,
+          "score": 0.0621,
+          "raw_score": 0.7585
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 81,
+          "score": 0.06,
+          "raw_score": 0.7473
+        }
+      ]
+    },
+    {
+      "id": "ch04_q04",
+      "chapter": "Chapter 4",
+      "category": "concept",
+      "question": "What is weight tying in the context of the GPT-2 model, and how does it affect the model's parameter count?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 147
+        }
+      ],
+      "hit@1_any": 0.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 0.5,
+      "hit@1_all": 0.0,
+      "hit@3_all": 1.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 0.5,
+      "is_multi_hop": false,
+      "hit@3_multi": null,
+      "hit@5_multi": null,
+      "mrr_multi": null,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 116,
+          "score": 0.0622,
+          "raw_score": 0.8178
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 147,
+          "score": 0.0492,
+          "raw_score": 0.8435
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 116,
+          "score": 0.0469,
+          "raw_score": 0.792
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 201,
+          "score": 0.0467,
+          "raw_score": 0.8051
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 143,
+          "score": 0.0462,
+          "raw_score": 0.79
+        }
+      ]
+    },
+    {
+      "id": "ch05_q02",
+      "chapter": "Chapter 5",
+      "category": "concept",
+      "question": "What is perplexity, how does it relate to cross entropy loss in evaluating language models, and what does a lower perplexity indicate?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 167
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 1.0,
+      "hit@3_all": 1.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 1.0,
+      "is_multi_hop": false,
+      "hit@3_multi": null,
+      "hit@5_multi": null,
+      "mrr_multi": null,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 167,
+          "score": 0.065,
+          "raw_score": 0.7973
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 168,
+          "score": 0.065,
+          "raw_score": 0.7908
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 167,
+          "score": 0.0613,
+          "raw_score": 0.7562
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 91,
+          "score": 0.0317,
+          "raw_score": 0.6
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 203,
+          "score": 0.0313,
+          "raw_score": 0.7416
+        }
+      ]
+    },
+    {
+      "id": "ch06_q05",
+      "chapter": "Chapter 6",
+      "category": "concept",
+      "question": "What is the key architectural difference between classification-finetuning and pretraining in terms of the output layer?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 247
+        }
+      ],
+      "hit@1_any": 0.0,
+      "hit@3_any": 0.0,
+      "hit@5_any": 0.0,
+      "mrr_any": 0.0,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 0.0,
+      "mrr_all": 0.0,
+      "is_multi_hop": false,
+      "hit@3_multi": null,
+      "hit@5_multi": null,
+      "mrr_multi": null,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 110,
+          "score": 0.063,
+          "raw_score": 0.7706
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 225,
+          "score": 0.0629,
+          "raw_score": 0.7911
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 222,
+          "score": 0.0487,
+          "raw_score": 0.7909
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 123,
+          "score": 0.0466,
+          "raw_score": 0.7677
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 224,
+          "score": 0.0457,
+          "raw_score": 0.7684
+        }
+      ]
+    },
+    {
+      "id": "ch06_q03",
+      "chapter": "Chapter 6",
+      "category": "principle",
+      "question": "Why are we particularly interested in the last output token rather than the 1st, 2nd, or 3rd output token when converting values into a class-label prediction?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 229
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 1.0,
+      "hit@3_all": 1.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 1.0,
+      "is_multi_hop": false,
+      "hit@3_multi": null,
+      "hit@5_multi": null,
+      "mrr_multi": null,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 229,
+          "score": 0.0656,
+          "raw_score": 0.887
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 228,
+          "score": 0.064,
+          "raw_score": 0.8272
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 228,
+          "score": 0.0635,
+          "raw_score": 0.8267
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 338,
+          "score": 0.0471,
+          "raw_score": 0.7961
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 264,
+          "score": 0.0455,
+          "raw_score": 0.8181
+        }
+      ]
+    },
+    {
+      "id": "ch07_q04",
+      "chapter": "Chapter 7",
+      "category": "principle",
+      "question": "Why is one 50256 (end-of-text) token ID intentionally kept in the targets instead of being masked out with -100?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 269
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 1.0,
+      "hit@3_all": 1.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 1.0,
+      "is_multi_hop": false,
+      "hit@3_multi": null,
+      "hit@5_multi": null,
+      "mrr_multi": null,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 269,
+          "score": 0.0487,
+          "raw_score": 0.7632
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 265,
+          "score": 0.0487,
+          "raw_score": 0.7709
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 263,
+          "score": 0.0462,
+          "raw_score": 0.7354
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 162,
+          "score": 0.0455,
+          "raw_score": 0.7384
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 265,
+          "score": 0.0315,
+          "raw_score": 0.7661
+        }
+      ]
+    },
+    {
+      "id": "ch01_q02",
+      "chapter": "Chapter 1",
+      "category": "comparison",
+      "question": "What is the fundamental difference between traditional NLP methods and LLMs in terms of the tasks they can handle?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 5
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 6
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 1.0,
+      "hit@3_all": 1.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 1.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 1.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 6,
+          "score": 0.0482,
+          "raw_score": 0.7239
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 5,
+          "score": 0.0476,
+          "raw_score": 0.6979
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 6,
+          "score": 0.0467,
+          "raw_score": 0.7026
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 91,
+          "score": 0.0439,
+          "raw_score": 0.6844
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 91,
+          "score": 0.032,
+          "raw_score": 0.6754
+        }
+      ]
+    },
+    {
+      "id": "ch01_q04",
+      "chapter": "Chapter 1",
+      "category": "comparison",
+      "question": "How does the training approach of BERT differ from that of GPT?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 13
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 14
+        }
+      ],
+      "hit@1_any": 0.0,
+      "hit@3_any": 0.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 0.25,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 0.25,
+      "is_multi_hop": true,
+      "hit@3_multi": 0.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 0.25,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 345,
+          "score": 0.065,
+          "raw_score": 0.7278
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 371,
+          "score": 0.0465,
+          "raw_score": 0.7128
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 332,
+          "score": 0.0459,
+          "raw_score": 0.702
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 13,
+          "score": 0.0325,
+          "raw_score": 0.7226
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 281,
+          "score": 0.0315,
+          "raw_score": 0.6918
+        }
+      ]
+    },
+    {
+      "id": "ch03_q05",
+      "chapter": "Chapter 3",
+      "category": "comparison",
+      "question": "What is the key architectural difference between the MultiHeadAttentionWrapper and the MultiHeadAttention class in terms of how they implement multi-head attention?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 103
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 105
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 106
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 107
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 108
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 110
+        }
+      ],
+      "hit@1_any": 0.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 0.5,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 0.0,
+      "mrr_all": 0.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 0.3333333333333333,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 101,
+          "score": 0.0614,
+          "raw_score": 0.8072
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 102,
+          "score": 0.0609,
+          "raw_score": 0.8023
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 110,
+          "score": 0.06,
+          "raw_score": 0.8386
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 105,
+          "score": 0.06,
+          "raw_score": 0.8116
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 106,
+          "score": 0.0489,
+          "raw_score": 0.8471
+        }
+      ]
+    },
+    {
+      "id": "ch04_q02",
+      "chapter": "Chapter 4",
+      "category": "comparison",
+      "question": "What is the key difference in the behavior of GELU compared to ReLU for negative input values?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 129
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 130
+        }
+      ],
+      "hit@1_any": 0.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 0.5,
+      "hit@1_all": 0.0,
+      "hit@3_all": 1.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 0.5,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 0.5,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 126,
+          "score": 0.065,
+          "raw_score": 0.7734
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 130,
+          "score": 0.0631,
+          "raw_score": 0.7465
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 131,
+          "score": 0.0626,
+          "raw_score": 0.7399
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 124,
+          "score": 0.0625,
+          "raw_score": 0.737
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 137,
+          "score": 0.0455,
+          "raw_score": 0.7309
+        }
+      ]
+    },
+    {
+      "id": "ch05_q05",
+      "chapter": "Chapter 5",
+      "category": "comparison",
+      "question": "What is the key difference between using torch.argmax and torch.multinomial for selecting the next token?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 183
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 184
+        }
+      ],
+      "hit@1_any": 0.0,
+      "hit@3_any": 0.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 0.25,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 0.25,
+      "is_multi_hop": true,
+      "hit@3_multi": 0.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 0.25,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 229,
+          "score": 0.064,
+          "raw_score": 0.7918
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 164,
+          "score": 0.0481,
+          "raw_score": 0.7769
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 189,
+          "score": 0.0463,
+          "raw_score": 0.7701
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 184,
+          "score": 0.0463,
+          "raw_score": 0.7568
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 46,
+          "score": 0.0444,
+          "raw_score": 0.7647
+        }
+      ]
+    },
+    {
+      "id": "ch07_q02",
+      "chapter": "Chapter 7",
+      "category": "comparison",
+      "question": "How does the Alpaca prompt style differ from the Phi-3 prompt style in terms of formatting for instruction finetuning?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 253
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 1.0,
+      "hit@3_all": 1.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 1.0,
+      "is_multi_hop": false,
+      "hit@3_multi": null,
+      "hit@5_multi": null,
+      "mrr_multi": null,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 253,
+          "score": 0.065,
+          "raw_score": 0.7881
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 253,
+          "score": 0.0643,
+          "raw_score": 0.7834
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 254,
+          "score": 0.064,
+          "raw_score": 0.7588
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 373,
+          "score": 0.0471,
+          "raw_score": 0.7248
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 11,
+          "score": 0.0448,
+          "raw_score": 0.7185
+        }
+      ]
+    },
+    {
+      "id": "ch03_cmp_q01",
+      "chapter": "Chapter 3",
+      "category": "comparison",
+      "question": "Compare self-attention and causal attention in terms of which tokens each position can attend to.",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 69
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 91
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 92
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 0.2,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 1.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 92,
+          "score": 0.0656,
+          "raw_score": 0.8235
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 92,
+          "score": 0.0637,
+          "raw_score": 0.7567
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 229,
+          "score": 0.0633,
+          "raw_score": 0.7562
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 230,
+          "score": 0.0474,
+          "raw_score": 0.7522
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 69,
+          "score": 0.0469,
+          "raw_score": 0.7443
+        }
+      ]
+    },
+    {
+      "id": "ch03_cmp_q02",
+      "chapter": "Chapter 3",
+      "category": "comparison",
+      "question": "Compare the MultiHeadAttentionWrapper and the MultiHeadAttention class in terms of how many matrix multiplications are needed to compute the keys.",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 103
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 105
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 106
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 107
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 108
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 110
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 0.0,
+      "mrr_all": 0.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 0.5,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 110,
+          "score": 0.0648,
+          "raw_score": 0.8775
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 109,
+          "score": 0.0643,
+          "raw_score": 0.8564
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 103,
+          "score": 0.0637,
+          "raw_score": 0.8384
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 108,
+          "score": 0.063,
+          "raw_score": 0.8383
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 107,
+          "score": 0.031,
+          "raw_score": 0.8358
+        }
+      ]
+    },
+    {
+      "id": "ch04_cmp_q01",
+      "chapter": "Chapter 4",
+      "category": "comparison",
+      "question": "Compare LayerNorm and BatchNorm in terms of their normalization axis and their suitability for LLMs.",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 122
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 129
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 0.0,
+      "mrr_all": 0.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 0.0,
+      "hit@5_multi": 0.0,
+      "mrr_multi": 0.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 129,
+          "score": 0.0651,
+          "raw_score": 0.762
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 359,
+          "score": 0.0465,
+          "raw_score": 0.7214
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 360,
+          "score": 0.0325,
+          "raw_score": 0.7375
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 287,
+          "score": 0.0308,
+          "raw_score": 0.7097
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 58,
+          "score": 0.0305,
+          "raw_score": 0.7104
+        }
+      ]
+    },
+    {
+      "id": "ch04_cmp_q02",
+      "chapter": "Chapter 4",
+      "category": "comparison",
+      "question": "Compare Pre-LayerNorm and Post-LayerNorm in terms of where normalization is applied and their training dynamics.",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 122
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 137
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 141
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 360
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 0.0,
+      "mrr_all": 0.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 0.5,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 360,
+          "score": 0.065,
+          "raw_score": 0.7904
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 141,
+          "score": 0.064,
+          "raw_score": 0.8097
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 359,
+          "score": 0.0625,
+          "raw_score": 0.7482
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 122,
+          "score": 0.0318,
+          "raw_score": 0.6986
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 129,
+          "score": 0.0315,
+          "raw_score": 0.6971
+        }
+      ]
+    },
+    {
+      "id": "ch05_cmp_q01",
+      "chapter": "Chapter 5",
+      "category": "comparison",
+      "question": "Compare greedy decoding, temperature scaling, and top-k sampling in terms of how they select the next token.",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 183
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 184
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 185
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 188
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 189
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 0.0,
+      "mrr_all": 0.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 1.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 189,
+          "score": 0.0469,
+          "raw_score": 0.7336
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 231,
+          "score": 0.0455,
+          "raw_score": 0.7234
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 265,
+          "score": 0.0446,
+          "raw_score": 0.7114
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 164,
+          "score": 0.0446,
+          "raw_score": 0.726
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 188,
+          "score": 0.0323,
+          "raw_score": 0.7575
+        }
+      ]
+    },
+    {
+      "id": "ch06_cmp_q01",
+      "chapter": "Chapter 6",
+      "category": "comparison",
+      "question": "Compare classification-finetuning and instruction-finetuning in terms of required data, compute, and the range of tasks the resulting model can perform.",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 201
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 206
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 207
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 0.0,
+      "mrr_all": 0.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 1.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 207,
+          "score": 0.0646,
+          "raw_score": 0.8822
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 10,
+          "score": 0.0623,
+          "raw_score": 0.8194
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 207,
+          "score": 0.0457,
+          "raw_score": 0.8415
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 247,
+          "score": 0.0453,
+          "raw_score": 0.8111
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 206,
+          "score": 0.0325,
+          "raw_score": 0.8578
+        }
+      ]
+    },
+    {
+      "id": "ch03_math_q01",
+      "chapter": "Chapter 3",
+      "category": "derivation",
+      "question": "Write the formula for scaled dot-product attention and explain why the scaling factor is the square root of the key embedding dimension.",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 81
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 85
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 86
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 0.0,
+      "mrr_all": 0.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 1.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 86,
+          "score": 0.0656,
+          "raw_score": 0.839
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 74,
+          "score": 0.0638,
+          "raw_score": 0.8063
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 73,
+          "score": 0.0637,
+          "raw_score": 0.8109
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 74,
+          "score": 0.063,
+          "raw_score": 0.7906
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 78,
+          "score": 0.0613,
+          "raw_score": 0.7856
+        }
+      ]
+    },
+    {
+      "id": "ch04_math_q01",
+      "chapter": "Chapter 4",
+      "category": "derivation",
+      "question": "Write the GELU activation formula and explain how the tanh approximation differs from the exact definition.",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 129
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 130
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 1.0,
+      "hit@3_all": 1.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 1.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 1.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 129,
+          "score": 0.0616,
+          "raw_score": 0.7448
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 129,
+          "score": 0.0492,
+          "raw_score": 0.795
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 362,
+          "score": 0.0468,
+          "raw_score": 0.7732
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 130,
+          "score": 0.0451,
+          "raw_score": 0.7517
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 133,
+          "score": 0.0318,
+          "raw_score": 0.7464
+        }
+      ]
+    },
+    {
+      "id": "ch05_math_q01",
+      "chapter": "Chapter 5",
+      "category": "derivation",
+      "question": "Express perplexity in terms of the cross entropy loss and explain how it can be interpreted as an effective vocabulary size.",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 167
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 168
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 1.0,
+      "hit@3_all": 1.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 1.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 1.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 167,
+          "score": 0.0638,
+          "raw_score": 0.7934
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 168,
+          "score": 0.0636,
+          "raw_score": 0.8372
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 300,
+          "score": 0.0315,
+          "raw_score": 0.7678
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 167,
+          "score": 0.0313,
+          "raw_score": 0.7834
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 129,
+          "score": 0.031,
+          "raw_score": 0.7623
+        }
+      ]
+    },
+    {
+      "id": "ch05_math_q02",
+      "chapter": "Chapter 5",
+      "category": "derivation",
+      "question": "Derive the relationship between the negative average log probability of the target tokens and the cross entropy loss.",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 165
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 166
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 167
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 1.0,
+      "hit@3_all": 1.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 1.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 1.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 166,
+          "score": 0.0489,
+          "raw_score": 0.7834
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 164,
+          "score": 0.0464,
+          "raw_score": 0.7406
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 164,
+          "score": 0.0458,
+          "raw_score": 0.7427
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 63,
+          "score": 0.0446,
+          "raw_score": 0.7498
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 269,
+          "score": 0.0301,
+          "raw_score": 0.7454
+        }
+      ]
+    },
+    {
+      "id": "ch03_math_q02",
+      "chapter": "Chapter 3",
+      "category": "derivation",
+      "question": "Explain why the softmax function is used to normalize attention scores instead of a simple division by the sum, and what numerical property of softmax makes it preferable.",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 74
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 75
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 1.0,
+      "hit@3_all": 1.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 1.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 1.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 75,
+          "score": 0.0648,
+          "raw_score": 0.8617
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 75,
+          "score": 0.0633,
+          "raw_score": 0.8465
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 96,
+          "score": 0.0631,
+          "raw_score": 0.871
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 86,
+          "score": 0.063,
+          "raw_score": 0.8588
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 151,
+          "score": 0.0621,
+          "raw_score": 0.8704
+        }
+      ]
+    },
+    {
+      "id": "ch03_code_q01",
+      "chapter": "Chapter 3",
+      "category": "code",
+      "question": "In the CausalAttention implementation, why is the mask registered via register_buffer instead of being stored as a regular attribute, and why is it created with torch.triu?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 93
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 96
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 99
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 100
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 106
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 0.0,
+      "mrr_all": 0.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 0.5,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 92,
+          "score": 0.0645,
+          "raw_score": 0.7899
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 95,
+          "score": 0.0623,
+          "raw_score": 0.7702
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 95,
+          "score": 0.0614,
+          "raw_score": 0.7579
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 95,
+          "score": 0.0459,
+          "raw_score": 0.7742
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 96,
+          "score": 0.0458,
+          "raw_score": 0.7621
+        }
+      ]
+    },
+    {
+      "id": "ch04_code_q01",
+      "chapter": "Chapter 4",
+      "category": "code",
+      "question": "In the TransformerBlock forward pass, why is the input x saved as shortcut before applying LayerNorm and attention, and what is added back at the end?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 139
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 140
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 141
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 0.0,
+      "hit@3_all": 1.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 0.3333333333333333,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 1.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 139,
+          "score": 0.0628,
+          "raw_score": 0.7991
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 145,
+          "score": 0.0474,
+          "raw_score": 0.806
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 140,
+          "score": 0.0464,
+          "raw_score": 0.7959
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 141,
+          "score": 0.0458,
+          "raw_score": 0.7933
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 326,
+          "score": 0.0328,
+          "raw_score": 0.8181
+        }
+      ]
+    },
+    {
+      "id": "ch04_code_q02",
+      "chapter": "Chapter 4",
+      "category": "code",
+      "question": "In the GPTModel implementation, why is weight tying not applied in the code even though the original GPT-2 uses it, and how does the parameter count differ?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 146
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 147
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 1.0,
+      "hit@3_all": 1.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 1.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 1.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 147,
+          "score": 0.0484,
+          "raw_score": 0.8265
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 371,
+          "score": 0.0472,
+          "raw_score": 0.8437
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 146,
+          "score": 0.047,
+          "raw_score": 0.8043
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 147,
+          "score": 0.0444,
+          "raw_score": 0.8016
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 201,
+          "score": 0.0315,
+          "raw_score": 0.7743
+        }
+      ]
+    },
+    {
+      "id": "ch05_code_q01",
+      "chapter": "Chapter 5",
+      "category": "code",
+      "question": "In the generate_text_simple function, why is the softmax step redundant when using torch.argmax, and why is it included anyway?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 151
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 1.0,
+      "hit@3_all": 1.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 1.0,
+      "is_multi_hop": false,
+      "hit@3_multi": null,
+      "hit@5_multi": null,
+      "mrr_multi": null,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 151,
+          "score": 0.0656,
+          "raw_score": 0.8718
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 161,
+          "score": 0.063,
+          "raw_score": 0.82
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 151,
+          "score": 0.0623,
+          "raw_score": 0.8094
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 183,
+          "score": 0.0479,
+          "raw_score": 0.8334
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 160,
+          "score": 0.0462,
+          "raw_score": 0.8082
+        }
+      ]
+    },
+    {
+      "id": "ch07_code_q01",
+      "chapter": "Chapter 7",
+      "category": "code",
+      "question": "In the custom_collate_fn for instruction finetuning, why is only the first 50256 (end-of-text) token kept in the targets while subsequent padding tokens are replaced with -100?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 261
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 265
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 266
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 269
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 0.25,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 1.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 265,
+          "score": 0.0645,
+          "raw_score": 0.814
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 266,
+          "score": 0.0638,
+          "raw_score": 0.8061
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 260,
+          "score": 0.0613,
+          "raw_score": 0.7985
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 269,
+          "score": 0.0487,
+          "raw_score": 0.8423
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 267,
+          "score": 0.0459,
+          "raw_score": 0.7852
+        }
+      ]
+    },
+    {
+      "id": "ch03_mh_q01",
+      "chapter": "Chapter 3",
+      "category": "multihop",
+      "question": "Given that attention scores are normalized by the square root of the key embedding dimension, what happens to the gradient magnitude during backpropagation if the embedding dimension becomes very large and no scaling is applied?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 86
+        }
+      ],
+      "hit@1_any": 0.0,
+      "hit@3_any": 0.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 0.25,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 0.25,
+      "is_multi_hop": false,
+      "hit@3_multi": null,
+      "hit@5_multi": null,
+      "mrr_multi": null,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 383,
+          "score": 0.0474,
+          "raw_score": 0.7941
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 26,
+          "score": 0.047,
+          "raw_score": 0.8139
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 384,
+          "score": 0.0469,
+          "raw_score": 0.8001
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 86,
+          "score": 0.0462,
+          "raw_score": 0.8009
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 85,
+          "score": 0.0325,
+          "raw_score": 0.8023
+        }
+      ]
+    },
+    {
+      "id": "ch04_mh_q01",
+      "chapter": "Chapter 4",
+      "category": "multihop",
+      "question": "If shortcut connections were removed from the GPT model, what effect would this have on the gradients in the early layers during training, based on the book's experiment?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 134
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 135
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 136
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 138
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 0.2,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 0.3333333333333333,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 138,
+          "score": 0.0656,
+          "raw_score": 0.8731
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 138,
+          "score": 0.064,
+          "raw_score": 0.8543
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 134,
+          "score": 0.0635,
+          "raw_score": 0.869
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 194,
+          "score": 0.0596,
+          "raw_score": 0.8193
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 135,
+          "score": 0.0462,
+          "raw_score": 0.8395
+        }
+      ]
+    },
+    {
+      "id": "ch05_mh_q01",
+      "chapter": "Chapter 5",
+      "category": "multihop",
+      "question": "If the temperature is set to 0 in the generate function, how does the sampling behavior relate to the argmax operation?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 183
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 185
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 187
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 191
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 0.0,
+      "mrr_all": 0.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 1.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 186,
+          "score": 0.0484,
+          "raw_score": 0.7854
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 187,
+          "score": 0.0472,
+          "raw_score": 0.7621
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 192,
+          "score": 0.0463,
+          "raw_score": 0.7534
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 185,
+          "score": 0.046,
+          "raw_score": 0.7487
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 186,
+          "score": 0.0457,
+          "raw_score": 0.7573
+        }
+      ]
+    },
+    {
+      "id": "ch06_mh_q01",
+      "chapter": "Chapter 6",
+      "category": "multihop",
+      "question": "If only the output layer were made trainable while keeping all transformer blocks frozen, how would the number of trainable parameters and the classification accuracy compare to the book's setup where the last transformer block and final LayerNorm are also trainable?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 224
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 225
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 226
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 0.0,
+      "hit@3_all": 1.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 0.5,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 1.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 226,
+          "score": 0.0635,
+          "raw_score": 0.8549
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 225,
+          "score": 0.0481,
+          "raw_score": 0.8449
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 154,
+          "score": 0.0474,
+          "raw_score": 0.8383
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 324,
+          "score": 0.0472,
+          "raw_score": 0.8412
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 402,
+          "score": 0.0466,
+          "raw_score": 0.8351
+        }
+      ]
+    },
+    {
+      "id": "ch05_mh_q02",
+      "chapter": "Chapter 5",
+      "category": "multihop",
+      "question": "If the training set loss continues to decrease while the validation loss stagnates, what does this indicate, and how can this be related to the size of the training dataset used in the book?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 180
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 181
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 182
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 1.0,
+      "hit@3_all": 1.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 1.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 1.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 181,
+          "score": 0.0325,
+          "raw_score": 0.8716
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 180,
+          "score": 0.0325,
+          "raw_score": 0.8625
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 340,
+          "score": 0.0323,
+          "raw_score": 0.7862
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 332,
+          "score": 0.0323,
+          "raw_score": 0.7787
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 236,
+          "score": 0.0315,
+          "raw_score": 0.8538
+        }
+      ]
+    },
+    {
+      "id": "ch04_mh_q02",
+      "chapter": "Chapter 4",
+      "category": "multihop",
+      "question": "If the feed-forward module's expansion factor of 4 were removed (i.e., the first Linear layer kept the embedding dimension instead of expanding to 4x), how would the parameter count of the feed-forward module change relative to the attention module?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 132
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 133
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 364
+        }
+      ],
+      "hit@1_any": 0.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 0.5,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 0.0,
+      "mrr_all": 0.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 0.5,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 147,
+          "score": 0.0653,
+          "raw_score": 0.8301
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 133,
+          "score": 0.0635,
+          "raw_score": 0.8246
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 368,
+          "score": 0.0624,
+          "raw_score": 0.7818
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 132,
+          "score": 0.0623,
+          "raw_score": 0.8008
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 368,
+          "score": 0.0457,
+          "raw_score": 0.7872
+        }
+      ]
+    },
+    {
+      "id": "ch02_ch03_cc_q01",
+      "chapter": "Chapter 2 & 3",
+      "category": "cross_chapter",
+      "question": "How does the token embedding and positional embedding pipeline from Chapter 2 feed into the self-attention computation in Chapter 3?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 59
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 61
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 71
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 84
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 89
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 0.0,
+      "mrr_all": 0.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 0.3333333333333333,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 59,
+          "score": 0.0653,
+          "raw_score": 0.7776
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 63,
+          "score": 0.047,
+          "raw_score": 0.7673
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 62,
+          "score": 0.0459,
+          "raw_score": 0.7675
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 265,
+          "score": 0.0315,
+          "raw_score": 0.7561
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 70,
+          "score": 0.0308,
+          "raw_score": 0.7598
+        }
+      ]
+    },
+    {
+      "id": "ch03_ch04_cc_q01",
+      "chapter": "Chapter 3 & 4",
+      "category": "cross_chapter",
+      "question": "How does the causal attention mask introduced in Chapter 3 relate to the choice of the last output token for classification in Chapter 6's approach to finetuning?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 92
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 229
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 231
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 1.0,
+      "mrr_all": 0.25,
+      "is_multi_hop": true,
+      "hit@3_multi": 0.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 0.25,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 92,
+          "score": 0.0476,
+          "raw_score": 0.8367
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 95,
+          "score": 0.0469,
+          "raw_score": 0.8208
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 92,
+          "score": 0.0463,
+          "raw_score": 0.8135
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 230,
+          "score": 0.0462,
+          "raw_score": 0.824
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 101,
+          "score": 0.046,
+          "raw_score": 0.8188
+        }
+      ]
+    },
+    {
+      "id": "ch04_ch05_cc_q01",
+      "chapter": "Chapter 4 & 5",
+      "category": "cross_chapter",
+      "question": "How does the GPT architecture implemented in Chapter 4 connect to the text generation loss computed in Chapter 5?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 143
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 146
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 157
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 163
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 167
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 0.0,
+      "mrr_all": 0.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 0.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 0.25,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 143,
+          "score": 0.0479,
+          "raw_score": 0.7793
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 117,
+          "score": 0.0471,
+          "raw_score": 0.7966
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 117,
+          "score": 0.046,
+          "raw_score": 0.7624
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 157,
+          "score": 0.0323,
+          "raw_score": 0.7741
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 149,
+          "score": 0.0313,
+          "raw_score": 0.7705
+        }
+      ]
+    },
+    {
+      "id": "ch02_ch05_cc_q01",
+      "chapter": "Chapter 2 & 5",
+      "category": "cross_chapter",
+      "question": "How does the sliding-window data sampling from Chapter 2 relate to the input-target pairs used to compute the text generation loss in Chapter 5?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 49
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 160
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 161
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 0.0,
+      "mrr_all": 0.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 1.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 161,
+          "score": 0.0484,
+          "raw_score": 0.7962
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 164,
+          "score": 0.0472,
+          "raw_score": 0.7819
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 277,
+          "score": 0.0467,
+          "raw_score": 0.7866
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 47,
+          "score": 0.0449,
+          "raw_score": 0.7775
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 52,
+          "score": 0.0444,
+          "raw_score": 0.7922
+        }
+      ]
+    },
+    {
+      "id": "ch05_ch06_cc_q01",
+      "chapter": "Chapter 5 & 6",
+      "category": "cross_chapter",
+      "question": "How does the cross entropy loss used in pretraining (Chapter 5) differ from the cross entropy loss used in classification-finetuning (Chapter 6)?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 166
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 167
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 231
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 235
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 247
+        }
+      ],
+      "hit@1_any": 0.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 0.5,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 0.0,
+      "mrr_all": 0.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 0.5,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 267,
+          "score": 0.0631,
+          "raw_score": 0.773
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 166,
+          "score": 0.0628,
+          "raw_score": 0.7654
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 247,
+          "score": 0.0628,
+          "raw_score": 0.7672
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 363,
+          "score": 0.0465,
+          "raw_score": 0.7499
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 222,
+          "score": 0.0461,
+          "raw_score": 0.7559
+        }
+      ]
+    },
+    {
+      "id": "ch06_ch07_cc_q01",
+      "chapter": "Chapter 6 & 7",
+      "category": "cross_chapter",
+      "question": "How do the data preparation and batching approaches differ between classification-finetuning in Chapter 6 and instruction-finetuning in Chapter 7?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 213
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 248
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 256
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 259
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 260
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 0.0,
+      "mrr_all": 0.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 0.0,
+      "hit@5_multi": 0.0,
+      "mrr_multi": 0.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 249,
+          "score": 0.0643,
+          "raw_score": 0.8141
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 248,
+          "score": 0.063,
+          "raw_score": 0.8164
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 222,
+          "score": 0.0586,
+          "raw_score": 0.7989
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 207,
+          "score": 0.0474,
+          "raw_score": 0.8241
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 274,
+          "score": 0.0458,
+          "raw_score": 0.8075
+        }
+      ]
+    },
+    {
+      "id": "ch01_ch05_cc_q01",
+      "chapter": "Chapter 1 & 5",
+      "category": "cross_chapter",
+      "question": "How does the two-stage pretraining/finetuning process introduced in Chapter 1 map onto the concrete training procedures implemented in Chapter 5 and the finetuning chapters?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 10
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 11
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 175
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 248
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 274
+        }
+      ],
+      "hit@1_any": 1.0,
+      "hit@3_any": 1.0,
+      "hit@5_any": 1.0,
+      "mrr_any": 1.0,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 0.0,
+      "mrr_all": 0.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 1.0,
+      "hit@5_multi": 1.0,
+      "mrr_multi": 1.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 10,
+          "score": 0.0492,
+          "raw_score": 0.8466
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 249,
+          "score": 0.0435,
+          "raw_score": 0.7809
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 251,
+          "score": 0.032,
+          "raw_score": 0.8256
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 232,
+          "score": 0.032,
+          "raw_score": 0.8123
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 301,
+          "score": 0.0313,
+          "raw_score": 0.7417
+        }
+      ]
+    },
+    {
+      "id": "ch03_app_cc_q01",
+      "chapter": "Chapter 3 & Appendix A",
+      "category": "cross_chapter",
+      "question": "How does the computation graph concept from Appendix A help explain the backpropagation through the self-attention mechanism in Chapter 3?",
+      "relevant_pages": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 81
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 313
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 314
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 315
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 317
+        }
+      ],
+      "hit@1_any": 0.0,
+      "hit@3_any": 0.0,
+      "hit@5_any": 0.0,
+      "mrr_any": 0.0,
+      "hit@1_all": 0.0,
+      "hit@3_all": 0.0,
+      "hit@5_all": 0.0,
+      "mrr_all": 0.0,
+      "is_multi_hop": true,
+      "hit@3_multi": 0.0,
+      "hit@5_multi": 0.0,
+      "mrr_multi": 0.0,
+      "retrieved": [
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 70,
+          "score": 0.0634,
+          "raw_score": 0.7993
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 319,
+          "score": 0.0616,
+          "raw_score": 0.7966
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 326,
+          "score": 0.0465,
+          "raw_score": 0.8002
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 326,
+          "score": 0.0464,
+          "raw_score": 0.7879
+        },
+        {
+          "source": "Build_a_Large_Language_Model_(From_Scratch)_v8_MEAP.pdf",
+          "page": 71,
+          "score": 0.0462,
+          "raw_score": 0.7863
+        }
+      ]
+    }
+  ]
+}
