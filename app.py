@@ -16,7 +16,7 @@ def render_contexts(contexts):
         return []
     with st.expander('参考资料',expanded=True):
         for item in contexts:
-            st.write(f"**{item['source']}-Page{item['source']}**(score={item.get('score',0.0):.3f})" )
+            st.write(f"**{item['source']}-Page{item['page']}**(score={item.get('score',0.0):.3f})" )
             st.caption(item['text'][:200]+'...')
 def main():
     st.set_page_config(page_title='NLP学习助手',page_icon='🧠',layout="wide")
@@ -76,8 +76,7 @@ def main():
             with st.spinner('Agent思考中'):
                 config = {'configurable':{'thread_id':st.session_state.thread_id}}
                 inputs = {
-                    #'question':question不用传，大模型只认识HumanMessage,AImessage,
-                    'messages':HumanMessage(content=question)
+                    'messages':[HumanMessage(content=question)]
                 }
                 final_state = agent.invoke(inputs,config=config)
                 answer = final_state.get('answer','未能生成答案')
